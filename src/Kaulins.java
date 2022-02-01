@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Kaulins {
 	static void mestKaulinu(int reizes) {
-		int skaitlis;
+		int skaitlis, lielakais = 0 ;
 		Random rand = new Random();
 		for(int i=1; i<=reizes; i++) {
 			skaitlis = rand.nextInt(6)+1;	
@@ -12,7 +12,7 @@ public class Kaulins {
 				lielakais  = skaitlis;
 			}
 		}
-		System.out.println("Lilakais skaitlis metienu reizç ir "+lielakis);
+		System.out.println("Lilakais skaitlis metienu reizç ir "+lielakais);
 	}
 	
 	public static void main(String[] args) {
