@@ -10,5 +10,5 @@ Java projekts, kurš realizē metamā kauliņu meršanu
 - [x] Lokalāis projekts izveitots GitHub
 - [] Papildinātais GitHub krātuves saturs iegūts lokāli lietošanaj
 - [] Projekta, pieslēdzies vēl viens programmētajs un izmēģināta kopdarbošanās (forking work) 
-- []
+- [x] Izdarit jaunu zari
 - [] Sapludināt zari in novērsts merge konflikts
