@@ -8,7 +8,7 @@ Java projekts, kurš realizē metamā kauliņu meršanu
 - [x] Izveidot GitHub kontu
 - [x] Izveidot GitHub repo
 - [x] Lokalāis projekts izveitots GitHub
-- [] Papildinātais GitHub krātuves saturs iegūts lokāli lietošanaj
-- [] Projekta, pieslēdzies vēl viens programmētajs un izmēģināta kopdarbošanās (forking work) 
+- [x] Papildinātais GitHub krātuves saturs iegūts lokāli lietošanaj
+- [x] Projekta, pieslēdzies vēl viens programmētajs un izmēģināta kopdarbošanās (forking work) 
 - [x] Izdarit jaunu zari
 - [] Sapludināt zari in novērsts merge konflikts
