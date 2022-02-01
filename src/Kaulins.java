@@ -1,8 +1,11 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
+
 public class Kaulins {
-	static void mestKaulinu(int reizes) {
-		int skaitlis, lielakais = 0;
+	static int mestKaulinu(int reizes) {
+		int skaitlis =0, lielakais = 0;
 		Random rand = new Random();
 		for(int i=1; i<=reizes; i++) {
 			skaitlis = rand.nextInt(6)+1;
@@ -12,16 +15,46 @@ public class Kaulins {
 			}
 		}
 		System.out.println("Lilakais skaitlis metienu reizç ir "+lielakais);
+		return skaitlis;
 	}
 	
 	public static void main(String[] args) {
-		int reizes;
+		int reizes, izvele;
+		List<Integer> pedej = new ArrayList<Integer>();
 		Scanner scan = new Scanner(System.in);
 		do{
 		System.out.println("Cik reizes mest kauliÅ†u?");
-		reizes = scan.nextInt();
-		}while(reizes<1);
-		mestKaulinu(reizes);
-		scan.close();
+		izvele = scan.nextInt();
+		switch(izvele){
+		case 1:
+			do{
+				System.out.println("Cik reizes mest kauliÅ†u?");
+				reizes = scan.nextInt();
+			}while(reizes<1);
+			pedej = mestKaulinu(reizes);
+			break;
+		case 2:
+			System.out.println("Pedeja metiena skaitli ir ");
+			for(int i =0; i<pedej.size(); i++){
+				pedej.get(i);
+			}
+			break;
+			
+		case 3:
+			int lielakais = 0;
+			for (int i=0; i<pedej.size(); i++){
+				if(pedej.get(i)>lielakais){
+					lielakais = pedej.get(i);
+				}
+			}
+				System.out.println("Lielakais skaitlis pedeja metiena ir "+lielakais);
+			break;
+		case 4:
+			System.out.println("Programma apturçta!");
+			break;
+			
+		}
+		}while(izvele!=2);
+			scan.close();
 	}
 }
