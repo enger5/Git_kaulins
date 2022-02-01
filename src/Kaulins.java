@@ -8,7 +8,11 @@ public class Kaulins {
 		for(int i=1; i<=reizes; i++) {
 			skaitlis = rand.nextInt(6)+1;	
 			System.out.println("Uzkrita skaitlis "+skaitlis);
+			if(lielakais<skaitlis){
+				lielakais  = skaitlis;
+			}
 		}
+		System.out.println("Lilakais skaitlis metienu reizç ir "+lielakis);
 	}
 	
 	public static void main(String[] args) {
