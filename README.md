@@ -12,5 +12,3 @@ Java projekts, kurš realizē metamā kauliņu meršanu
 - [x] Projekta, pieslēdzies vēl viens programmētajs un izmēģināta kopdarbošanās (forking work) 
 - [x] Izdarit jaunu zari
 - [] Sapludināt zari in novērsts merge konflikts
-
-https://github.com/SSA001444/Workd_in_team
